@@ -45,10 +45,10 @@
     border-bottom-width: 0px;
     border-bottom: #111111 0px;
     border-top: #111111 0px;
-    margin-top: -2px;
-    margin-bottom: -2px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 @keyframes rotate {
