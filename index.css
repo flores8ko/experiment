@@ -60,7 +60,7 @@
 .floating-element {
     position: fixed;
 
-    margin-top: 85vh;
+    margin-top: 35vh;
     animation: rotate 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
@@ -78,5 +78,5 @@
 
 .floating-text > h1 {
     color: white;
-    font-size: 10em;
+    font-size: 6em;
 }
