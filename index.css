@@ -59,14 +59,28 @@
 
 .floating-element {
     position: fixed;
+    margin-top: 78vh;
+    width: 100%;
+    /*animation: rotate 1s linear infinite;*/
+    /*animation-play-state: paused;*/
+    /*animation-delay: calc(var(--scroll) * -1s);*/
 
-    margin-top: 35vh;
-    animation: rotate 1s linear infinite;
-    animation-play-state: paused;
-    animation-delay: calc(var(--scroll) * -1s);
+    /*animation-iteration-count: 1;*/
+    /*animation-fill-mode: both;animation: rotate 1s linear infinite;*/
+    /*animation-play-state: paused;*/
+    /*animation-delay: calc(var(--scroll) * -1s);*/
 
-    animation-iteration-count: 1;
-    animation-fill-mode: both;
+    /*animation-iteration-count: 1;*/
+    /*animation-fill-mode: both;*/
+}
+
+.icon-align {
+    max-width: 350px;
+    max-height: 350px;
+    width: 20vh;
+    height: 20vh;
+    float: right;
+    margin-right: 2vw;
 }
 
 .floating-text {
